@@ -1,0 +1,69 @@
+#note-form {
+
+display: none;
+}
+
+.fixed-panel {
+    margin:40px;
+    width: 500px;
+}
+
+#detail {
+	background-image: url("bg.png");
+	background-repeat: no-repeat;
+	display: none;
+	background-size:  100%;
+	position: absolute;
+	right: 100px;
+	width: 550px;
+	height: 400px;
+}
+
+#results-panel {
+	display: flex;
+	flex-direction: row;
+	padding: 0cm 0cm 0cm 1cm;
+}
+
+#New-button{
+	padding: 0cm 0cm 0cm 1cm;
+}
+
+
+h2.detail {
+    text-align: center;
+}
+
+label.detail1{
+
+	position: absolute;
+	right :30px;
+}
+
+div.detail1{
+
+	position: absolute;
+	left :60px;
+}
+
+
+.delete-button{
+
+	position: absolute;
+	bottom: 80px;
+	left :150px;
+	
+}
+
+.save-button{
+	
+	position: absolute;
+	bottom: 80px;
+	left :350px;
+	
+}
+
+textarea { 
+	width: 450px;
+	vertical-align: top; 
+}​

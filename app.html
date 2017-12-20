@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="UTF-8">
+	<title>Todo List</title>
+	<link rel="stylesheet" type="text/css" href="todo-app.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="TodoList.js" type="text/javascript"></script>
+
+</head>
+<body>
+	
+
+	<div id="New-button">
+		<h1>Todo List App</h1>
+		<button id="new-btn" class="btn btn-primary">New Note</button> 
+	</div>
+	<div id="note-form" class="panel panel-primary fixed-panel" >
+		<div class="panel-heading">Input Details</div>
+		<div class="panel-body">
+		<label>Subject <input id="subject" type="text"></input></label>
+		<label>Author: <input id="author" type="email"></input></label><br>
+		<label>Message:</label><br>
+		<textarea id ="message" rows="4" cols="50" name="comment" form="usrform" placeholder="Message text here..."></textarea><br><br>
+		<button class="btn btn-success" id="save-btn">Save Note</button>
+	</div>
+
+	</div>
+		<!-- <h2>Todo List </h2> -->
+	<div id="results-panel">
+		<div id="list-panel"></div>
+		<div id="detail"></div>
+	
+	</div>
+</body>
+</html>
